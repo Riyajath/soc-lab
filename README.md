@@ -233,7 +233,7 @@ soc-home-lab/
 ## 👤 Author
 
 **Riyajath Hameed P.**  
-Final-year B.Sc Computer Science | Aspiring SOC Analyst  
+B.Sc Computer Science graduate | Aspiring SOC Analyst  
 [LinkedIn](https://linkedin.com/riyajath/) · [GitHub](https://github.com/Riyajath)
 
 ---
