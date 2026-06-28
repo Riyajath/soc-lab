@@ -22,7 +22,7 @@ This lab was designed to go beyond passive learning — I built, broke, and debu
                        │
           ┌────────────┴─────────────┐
           │                          │
-┌─────────▼──────────┐    ┌──────────▼──────────┐
+┌─────────▼──────────┐    ┌──────────▼───────────┐
 │   Laptop 1         │    │   Laptop 2           │
 │   (Attacker)       │    │   (Defender)         │
 │                    │    │                      │
