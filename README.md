@@ -130,6 +130,9 @@ echo "<attacker-public-key>" >> ~/.ssh/authorized_keys
 
 All detections below required writing or modifying custom rules. Each was debugged by reading individual log pipelines — `auditd` logs, Suricata fast.log, and Wazuh `ossec.log` — to trace why rules weren't firing and resolve them.
 
+**BASE LOGS**
+logs/1.base-logs.png
+
 ---
 
 ### Detection 1 — SSH Brute Force (Wazuh)
