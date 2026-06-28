@@ -131,7 +131,8 @@ echo "<attacker-public-key>" >> ~/.ssh/authorized_keys
 All detections below required writing or modifying custom rules. Each was debugged by reading individual log pipelines — `auditd` logs, Suricata fast.log, and Wazuh `ossec.log` — to trace why rules weren't firing and resolve them.
 
 **BASE LOGS**
-logs/1.base-logs.png
+<img width="1366" height="768" alt="1 base-logs" src="logs/1.base-logs.png" />
+
 
 ---
 
