@@ -83,6 +83,7 @@ nmap -sV -p 22 10.xx.xx.135
 |---|---|---|
 | T1046 | Discovery — Network Service Scanning | Scanning target host to identify exposed SSH service |
 
+<img width="1366" height="768" alt="1 base-logs" src="logs/2.nmap-scan-detection.png" />
 ---
 
 ### Stage 2 — SSH Brute Force (Initial Access)
