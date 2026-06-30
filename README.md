@@ -239,7 +239,7 @@ soc-home-lab/
 
 **Riyajath Hameed P.**  
 B.Sc Computer Science graduate | Aspiring SOC Analyst  
-[LinkedIn](https://linkedin.com/riyajath/) · [GitHub](https://github.com/Riyajath)
+[LinkedIn](https://linkedin.com/in/riyajath/) · [GitHub](https://github.com/Riyajath)
 
 ---
 
