@@ -228,7 +228,7 @@ soc-home-lab/
 │   ├── suricata-custom.rules
 │   └── auditd-rules.conf
 ├── logs/
-│   └── sample-alerts/         ← Redacted alert screenshots
+│   └── screenshots.png
 └── attack-scripts/
     └── simulation-notes.md
 ```
